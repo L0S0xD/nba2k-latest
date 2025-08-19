@@ -148,7 +148,7 @@ class Basketball(pygame.sprite.Sprite):
 			if self.miss:
 				self.direction.x *= -0.67
 				self.direction.y *= 0.5
-				self.bounces += 1
+				# self.bounces += 1
 				return
 			self.scored()
 		
@@ -199,7 +199,7 @@ class Basketball(pygame.sprite.Sprite):
 			self.rect.bottom = 850
 			self.direction.y *= -0.67
 			self.velocity *= -0.67
-			self.bounces += 1
+			# self.bounces += 1
 
 	def update(self, dt):
 		self.last_pos = self.pos.copy()
@@ -216,6 +216,6 @@ class Basketball(pygame.sprite.Sprite):
 		else:
 			self.handle_catch()
 
-		if not self.ball_done and self.height <= 0:
+		if not self.ball_done and self.height <= 1:
 			self.rebound()
 

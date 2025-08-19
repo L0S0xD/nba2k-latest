@@ -203,23 +203,14 @@ class Game:
 			"HOW TO PLAY:",
 			"",
 			"OFFENSIVE MOVES:",
-			"-PASS | A KEY",
+			"-PASS | D KEY",
 			"-SHOOT | W KEY",
-			"-SPIN | S AND LEFT OR RIGHT ARROW KEYS",
-			"-HALF SPIN | AS AND LEFT OR RIGHT ARROW KEYS",
-			"-PUMP | SHIFT KEY",
-			"-SIDE STEP | SPACEBAR AND UP OR DOWN KEY",
-			"-STEP BACK | SHIFT AND LEFT OR RIGHT KEY",
-			"-DUNK | D KEY",
-			"-EUROSTEP | SPACEBAR AND SHIFT KEYS",
-			"FLOP | WAD KEYS",
-			"BALL BEHIND THE BACK | SA KEYS",
-			"SWITCH HANDS | SD KEYS" "",
+			"-FLOP | S ",
 			"DEFENSIVE MOVES:",
 			"-BLOCK | W KEY",
-			"-SUMMON 2ND MAN | A KEY",
-			"-STEAL | D AND LEFT OR RIGHT ARROW KEYS",
-			"-DRAYMOND | S KEY",
+			"-STEAL | D",
+			"-FLOP | S ",
+			
 		]
 
 		# images/sounds

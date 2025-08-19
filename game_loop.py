@@ -163,7 +163,7 @@ def game_loop(self):
 					self.update_play(self.player, True)
 			if self.ball_scored_info:
 				self.animation_wait_timer += dt
-				if self.animation_wait_timer > 1.2:
+				if self.animation_wait_timer > .6:
 					self.animation_wait_timer = 0
 					self.finish_scored()
 
